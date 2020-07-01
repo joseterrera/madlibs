@@ -17,6 +17,8 @@ class Story:
         >>> s.generate(ans)
         'I love to eat a good mango.'
     """
+# __init__ would be the equivalent of a constructor in js and self is like this in js, but it needs
+# to be added explicitedly. 
 
     def __init__(self, words, text):
         """Create story with words and template text."""

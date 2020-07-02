@@ -30,7 +30,7 @@ class Story:
         """Substitute answers into text."""
 
         text = self.template
-
+        # replace
         for (key, val) in answers.items():
             text = text.replace("{" + key + "}", val)
 
